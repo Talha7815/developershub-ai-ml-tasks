@@ -1,0 +1,41 @@
+# Task 3: Heart Disease Prediction
+
+## 📌 Objective
+Build a classification model to predict whether a person is at risk of heart disease based on health data.
+
+## 📊 Dataset
+- **Source:** Heart Disease UCI Dataset (Kaggle)
+- **Samples:** 920 patients
+- **Features:** 13 medical attributes
+- **Target:** Binary (0 = No Disease, 1 = Disease)
+
+## 🛠️ Tools Used
+- Python (pandas, numpy)
+- Visualization (matplotlib, seaborn)
+- Machine Learning (scikit-learn)
+
+## 🤖 Models Compared
+1. **Logistic Regression** - Accuracy: 84.2%, ROC-AUC: 0.903
+2. **Decision Tree** - Accuracy: 77.7%, ROC-AUC: 0.854
+
+## 🔍 Key Findings
+- **Best Model:** Logistic Regression (84.2% accuracy)
+- **Top Risk Factors:** 
+  - Atypical chest pain
+  - ST depression (oldpeak)
+  - Number of blocked vessels (ca)
+  - Exercise-induced angina (exang)
+- **Demographic Insights:**
+  - Males: 63.2% have heart disease
+  - Females: 25.8% have heart disease
+  - Average age (disease): 55.9 years
+
+## 📈 Performance Metrics
+| Model | Accuracy | ROC-AUC | CV Score |
+|-------|----------|---------|----------|
+| Logistic Regression | 84.2% | 0.903 | 0.812 |
+| Decision Tree | 77.7% | 0.854 | 0.758 |
+
+## 📁 Files
+- `Task3_Heart_Disease_Prediction.ipynb` - Complete analysis notebook
+
